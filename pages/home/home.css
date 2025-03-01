@@ -16,7 +16,6 @@ body {
 
 #music {
     color: #DBF0FF;
-    /* width: auto; */
 }
 
 .music-box {
@@ -43,4 +42,20 @@ body {
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bold;
+}
+
+
+.dreamlog-btn {
+    width: 20%;
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: #BDE3FF;
+    color: #333;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4169e1;
 }
