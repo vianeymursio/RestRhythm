@@ -33,8 +33,49 @@
             </div>
             <div class="row justify-content-between">
                 <div class="col-12 col-md-6 text-center music-box">
-                    <iframe src="https://open.spotify.com/embed/track/TRACK_ID" frameborder="0" allowtransperancy="true"
-                        allow="encrypted-media"></iframe>
+                    <div id="playlistCarousel" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h4>Pop Instrumental</h4>
+                                <iframe
+                                    src="https://open.spotify.com/embed/playlist/7wDeSu8EMURIxwFbqPrZhp?si=0cde7c90a868464a"
+                                    width="300" height="380" frameborder="0" allowtransparency="true"
+                                    allow="encrypted-media"></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>Ambient</h4>
+                                <iframe
+                                    src="https://open.spotify.com/embed/playlist//6sPkDFYJLQ1eNNjURZbAoZ?si=cbeb878635bb4312"
+                                    width="300" height="380" frameborder="0" allowtransparency="true"
+                                    allow="encrypted-media"></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>Lofi</h4>
+                                <iframe
+                                    src="https://open.spotify.com/embed/playlist/59BEOKC7uV1Pv1mRg3aMRe?si=625440533447434f"
+                                    width="300" height="380" frameborder="0" allowtransparency="true"
+                                    allow="encrypted-media"></iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <h4>Classical</h4>
+                                <iframe
+                                    src="https://open.spotify.com/embed/playlist/5cwPclg5ZtafoBPWgZMHMb?si=fcfbd01237c548a8"
+                                    width="300" height="380" frameborder="0" allowtransparency="true"
+                                    allow="encrypted-media"></iframe>
+                            </div>
+                        </div>
+                        <!-- Carousel Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#playlistCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#playlistCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
                 <div class="col-12 col-md-5 slider-container music-box">
                     <label>Rain</label>

@@ -44,6 +44,11 @@ body {
     font-weight: bold;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #757575;
+    border-radius: 50%;
+}
 
 .dreamlog-btn {
     width: 20%;
