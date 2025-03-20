@@ -4,18 +4,20 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    color: white;
 }
 
 .container {
     width: 80%;
     margin: auto;
-    background: #DBF0FF;
+    background: #0e1b40;
     padding: 20px;
     border-radius: 10px;
 }
 
 #login-container{
     background: #757575;
+    color: #333;
 }
 .login-card {
     background: #E6E6E6;

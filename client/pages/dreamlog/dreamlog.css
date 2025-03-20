@@ -4,16 +4,22 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 h2, #message {
-    color: #DBF0FF;
+    color: white;
 }
 
 .container {
     width: 80%;
     margin: auto;
-    background: #DBF0FF;
+    background: #0e1b40;
     padding: 20px;
     border-radius: 10px;
 }
@@ -29,6 +35,7 @@ table {
     margin-top: 10px;
     background: white;
     border-collapse: collapse;
+    color: #333;
 }
 
 th, td {

@@ -12,10 +12,6 @@ body {
     color: white;
 }
 
-footer {
-    background: #757575;
-}
-
 #main-container {
     width: 80%;
     margin: auto;
@@ -41,6 +37,16 @@ footer {
     text-decoration: none;
     padding: 10px 15px;
     white-space: nowrap;
+}
+
+.content{
+    width: 90%;
+    margin: auto;
+}
+
+.pictures {
+    width: 40%;
+    margin: auto;
 }
 
 .btn{
